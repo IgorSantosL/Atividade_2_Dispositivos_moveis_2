@@ -127,16 +127,3 @@ flutter test test/app_test.dart --dart-define=CAPTURE_SCREENSHOTS=true
 
 O fluxo de GitHub Actions em `.github/workflows/flutter.yml` executa formatação, análise e testes a cada push ou pull request. No Windows, a compilação incremental do Kotlin está desativada para evitar o erro de cache quando o projeto e as dependências ficam em unidades diferentes, como `D:` e `C:`.
 
-## Entrega
-
-Repositório: [IgorSantosL/Atividade_2_Dispositivos_moveis_2](https://github.com/IgorSantosL/Atividade_2_Dispositivos_moveis_2).
-
-Após revisar os arquivos, publique as alterações:
-
-```sh
-git add .
-git commit -m "Implementa aplicativo de previsao do tempo com CPTEC"
-git push origin main
-```
-
-Envie o link do repositório na tarefa correspondente do Teams.
