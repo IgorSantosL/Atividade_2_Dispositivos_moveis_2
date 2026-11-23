@@ -1,0 +1,6 @@
+# Regras usadas pelo flutter analyze para verificar o código.
+include: package:flutter_lints/flutter.yaml
+
+# Regras adicionais podem ser definidas em rules.
+linter:
+  rules:
